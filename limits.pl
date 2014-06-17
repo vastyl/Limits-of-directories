@@ -213,7 +213,7 @@ sub phase_four(){
 		my $sth_fatal = $dbh->prepare($fatal_sql);
 		$sth_fatal->execute;
 		
-		#$email = email klinetu je potreba tam dodat @vsb.cz
+		
 		my $status = $mail->send(
 		from    => 'xxxx' ,
 		to      => '$email' ,
