@@ -30,7 +30,7 @@ use Data::Dumper;
 	
 ### unit is Mbs
 our $DATA_LIMIT = 1500;
-our $DB_LIMIT = 500;
+#our $DB_LIMIT = 500;
 
 ### path
 our $ROOT_PATH="/srv";
